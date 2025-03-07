@@ -4,6 +4,6 @@ provider "aws" {
 
 # Create an S3 bucket
 resource "aws_s3_bucket" "ss_s3" {
-  bucket = "svinfoccitbhcket5"
+  bucket = "svinfoccitbhcket6"
   tags = { Name = "ss-public-bucket" }
 }
